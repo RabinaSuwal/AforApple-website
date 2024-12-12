@@ -1,0 +1,228 @@
+@media (max-width: 1536px){
+  .container{
+    max-width: 90%;
+    margin: 0 auto; 
+    overflow: hidden;
+  }
+  .queries-section{
+    max-width: 1600px;
+  }
+  
+  .nav-container{
+    padding: 0px 30px 0px 30px;
+  }
+  .content-1{
+    padding: 50px 60px 50px 0px;
+  }
+  .hero-image-2{
+    height: -webkit-fill-available;
+  }
+  .header{
+    background-color: #D1F5FF;
+  }
+  
+  
+}
+@media (max-width: 1280px){   
+    .linkbar{
+      display: none;
+    }
+    .menu-trigger{
+      display: block;
+    }
+    .hero-section{
+      padding-top: -10px;
+    }
+    .jumping-kid{
+      display: none;
+    }
+     .experts-grid{
+      grid-template-columns: repeat(2, 1fr);
+     }
+     .stars-icon{
+      display: none;
+     }
+     .expert-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+     }
+     .expert-header h1{
+      font-size: 36px;
+     }
+     .tilted-image{
+        width: 20%;
+     }
+     .image-6{
+      display: none;
+     }
+     /* .faq-section,
+    .support-section,
+    .download-section {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 600px;
+    }
+  } */
+
+
+  @media (max-width: 1024px){
+    .header-left, .header-right {
+      width: 100%;
+      justify-content: center;
+    }
+    .header {
+      flex-direction: column;
+    }
+    .header::before{
+      display: none;
+    }
+    
+    .hero-image{
+      display: none;
+    }
+    .hero-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content-3{
+      justify-content: center;
+    }
+    .hero-content{
+        width: 100%;
+        
+    }
+    .content-2{
+      justify-items: center;
+      text-align: center;
+    }
+    .content-1{
+      display: none;
+    }
+    .curriculum-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+    }
+    .features{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+    }
+   
+    .left-section{
+      width: 380px;
+      justify-content: center;
+    }
+    .atom-image{
+      display: none;
+    }
+    .curl-image{
+      display: none;
+    }
+    .card-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    }
+    .curl-image-left{
+      display: none;
+    }
+    .pen-image{
+      display: none;
+    }
+    .classroom-section{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      width: 478px;
+      justify-self: center;
+    }
+    .results-illustration{
+      display: none;
+    }
+    .results-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .results-content{
+      display: contents;
+      text-align: center;
+    }
+    .result-card{
+      /* width: 448px; */
+      min-width: 237px;
+    }
+    .academic-programs{
+      margin-top: 0;
+    }
+    .global-awards{
+      margin-top: 0;
+    }
+    .blogs-container{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+    }
+    .queries-section h1{
+      font-size: 36px;
+    }
+    .faq-section{
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+    }
+    }
+    .support-section,
+    .download-section {
+      /* margin: 0 auto; */
+      width: 100%;
+      max-width: 400px;
+    }
+    .tilted-image{
+      width: 25%;
+    }
+    .image-5{
+      display: none;
+    }
+    .footer-content{
+      display: grid;
+      grid-template-columns:2fr 2fr;
+      grid-template-rows: auto auto auto ;
+      gap: 20px;
+      
+     
+    }
+    /* .faq-images img{
+      width: 140px;
+      height: 84px;
+    } */
+    .support-image{
+      /* width: 300px; */
+    }
+
+    
+  }
+  @media (max-width: 768px){
+      .header{
+        display: none;
+      }
+      .classroom-section{
+        display: grid;
+        grid-template-columns: 2fr;
+        justify-items: center;
+      }
+  }
+  @media (max-width: 640px){
+    /* .container{
+      max-width: 475px;
+    } */
+  }
+
+  
