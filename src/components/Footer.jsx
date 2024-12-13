@@ -85,6 +85,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footer-bottom">
+        <div className="footer-container">
         <div>
           <p>© 2023 Wedesigntech. All Rights Reserved.</p>
         </div>
@@ -124,6 +125,7 @@ function Footer() {
             alt=""
             className="footer-icon"
           />
+        </div>
         </div>
       </div>
     </>

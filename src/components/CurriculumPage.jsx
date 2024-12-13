@@ -32,6 +32,7 @@ function CurriculumPage() {
             consequat ex lacus, in mattis nulla posuere.
           </p>
 
+          <div className='feature-container'>
           <div className="features">
             <div className="feature">
               <span className="feature-number purple-bg">01</span>
@@ -58,8 +59,9 @@ function CurriculumPage() {
           <div>
               <img src="https://dtthemes.kinsta.cloud/a-for-apple/wp-content/uploads/sites/2/2024/03/h2-abt-image.webp" alt=""
                width='175px' height='347px' className='jumping-kid' />
-           </div>
+          </div>
 
+          </div>
           <button className="more-about-button">MORE ABOUT US ➜</button>
           
         </div>

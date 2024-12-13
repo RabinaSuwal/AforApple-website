@@ -6,7 +6,6 @@ import { IoMdMail } from "react-icons/io";
 function Header() {
   return (
     <>
-      {/* <div className='container'> */}
         <header className="header">
           <div className='header-left'>
                   <span className='location-icon'><CiLocationOn/></span>
@@ -19,7 +18,6 @@ function Header() {
                   <div><IoMdMail className='mail-icon'/><p>support@example.com</p></div>
           </div>
         </header>
-      {/* </div> */}
     </>
   )
 }

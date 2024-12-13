@@ -1,12 +1,12 @@
 /** @format */
 
 import React from "react";
+import { IoSearch } from "react-icons/io5";
 
 function HeroSection() {
   return (
     <div className="container">
     <section className="hero-section">
-      
         <div className="content-wrap">
           <div className="hero-content">
             <div className="hero-content-1">
@@ -30,6 +30,7 @@ function HeroSection() {
                   className="search"
                 />
                 <button className="search-button">SEARCH COURSES</button>
+                <button className="search-icon"><IoSearch/></button>
               </div>
             </div>
           </div>

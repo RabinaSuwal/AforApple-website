@@ -92,7 +92,7 @@
     }
     .hero-content{
         width: 100%;
-        
+        padding: 0px 0px 20px 10px;    
     }
     .content-2{
       justify-items: center;
@@ -181,7 +181,6 @@
     }
     .support-section,
     .download-section {
-      /* margin: 0 auto; */
       width: 100%;
       max-width: 400px;
     }
@@ -219,10 +218,89 @@
         justify-items: center;
       }
   }
+
   @media (max-width: 640px){
-    /* .container{
-      max-width: 475px;
-    } */
+    .search-icon{
+      display: none;
+    }
+  }
+
+  @media (max-width: 478px){
+    .hero-content{
+      padding: 0;
+    }
+    .search-button{
+      display: none;
+    }
+    .search-bar{
+      margin-bottom: 10px;
+    }
+   .search-icon{
+    background-color:#973FEA ; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+   }
+    .interests{
+      display: inline-block; 
+      text-align: center;
+    }
+    .interest{
+      margin: 10px;
+    }
+    .tailor-header h1{
+      font-size: 32px;
+    }
+    .faq-section,
+    .support-section,
+    .download-section{
+      max-width: 470px;
+    }
+    .welcome-offer h1{
+      font-size: 36px;
+    }
+    .welcome-offer h2{
+      font-size: 20px;
+    }
+    .time-box{
+      width: 80px;
+    }
+    .time-box p{
+      font-size: 21px;
+    }
+    .time-box h3{
+      font-size: 16px;
+    }
+    .countdown span{
+      font-size: 24px;
+    }
+    .results-card{
+      /* width: 448px; */
+      display: inline-block;
+    }
+    .result-card{
+
+    }
+    .blogs-container{
+      display: inline-block;
+    }
+    .faq-container{
+      display: inline-block;
+    }
+    .support-section,
+    .faq-section{
+      margin-bottom: 120px;
+    }
+    .support-section,
+    .download-section{
+      margin-bottom: 20px;
+    }
   }
 
   

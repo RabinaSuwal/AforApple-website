@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 
 function FAQ() {
-  const [activeIndex, setActiveIndex] = useState(null); // Tracks the active FAQ item
+  const [activeIndex, setActiveIndex] = useState(0); // Tracks the active FAQ item
 
   const toggleFaq = (index) => {
-    // Toggle visibility of FAQ content
-    setActiveIndex(activeIndex === index ? null : index);
-  };
+    // Toggle visibility of FAQ content; we ensure that one FAQ is always open
+    setActiveIndex(index);}
 
   return (
     <div className="queries-section">
